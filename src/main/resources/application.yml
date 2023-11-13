@@ -1,0 +1,16 @@
+# 配置端口
+server:
+  port: 8082
+  servlet:
+    context-path: /ceph
+
+# ceph rgw存储相关信息配置
+ceph:
+  config:
+    hosts: http://116.204.75.211
+    accessKey: 6LE7ZERK8L7C056U4D54
+    secretKey: 2m4p3EthdzJv0WCWlVvMj9VAdHoBIofKz79JwGX3
+
+logging:
+  level:
+    com.roylao: DEBUG
